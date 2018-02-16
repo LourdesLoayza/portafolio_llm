@@ -8,7 +8,8 @@
   <title>My portfolio</title>
   <link href="https://fonts.googleapis.com/css?family=Poppins:100,300,500" rel="stylesheet">
   <!--CSS Links-->
-  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -17,146 +18,165 @@
     <!-- Header Area - Nav's links -->
     <header class="default-header">
       <div class="container-fluid">
-        <div class="header-top d-flex justify-content-between ">
-          <div class="logo">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active" id="nav-about-tab" data-toggle="tab" href="#nav-about-me" role="tab" aria-controls="nav-about-me"
+              aria-selected="true">About me</a>
+            <a class="nav-item nav-link" id="nav-resume-tab" data-toggle="tab" href="#nav-resume" role="tab" aria-controls="nav-resume"
+              aria-selected="false">Resume</a>
+            <a class="nav-item nav-link" id="nav-portfolio-tab" data-toggle="tab" href="#nav-portfolio" role="tab" aria-controls="nav-portfolio"
+              aria-selected="false">Portfolio</a>
+            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact-me" role="tab" aria-controls="nav-contact-me"
+              aria-selected="false">Contact me</a>
           </div>
-          <nav>
-            <a href="#">About me</a>
-            <a href="#">Resume</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact me</a>
-          </nav>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="nav-about-me" role="tabpanel" aria-labelledby="nav-home-tab">
+
+            <!-- Banner Area - Resume -->
+            <section class="banner-area relative">
+              <div class="container">
+                <div class="row fullscreen align-items-center justify-content-center">
+                  <div class="banner-left col-lg-6">
+                    <img class="d-flex mx-auto img-fluid" src="assets/images/header-img.png" alt="">
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="story-content">
+                      <h6 class="text-uppercase">Hi! My name is </h6>
+                      <h1>Lourdes Loayza</h1>
+                      <h4>
+                        <span class="sp-2"> and i like</span>
+                      </h4>
+                      <h3> Marketing research & UX design</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- About me -->
+            <section class="video-area pt-40 pb-40" id="about-me">
+              <div class="overlay overlay-bg"></div>
+              <div class="container">
+
+                <div class="video-content">
+
+                  <div class="video-desc">
+                    <h3 class="h2 text-white text-uppercase">About me</h3>
+                    <h4 class="text-white">Mrs. Gump: What's normal anyways?</h4>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- Resume -->
+          <div class="tab-pane fade" id="nav-resume" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <section class="section-gap">
+              <div class="container">
+                <div class="row pt-60">
+                  <div class="col-lg-4 col-sm-4">
+                    <h4 class="text-uppercase mb-20">Experience</h4>
+                    <h6>2014 - 2017 | Artecola Perú</h6>
+                    <span>Responsible to execute the activities of the marketing plan.
+                      <br> Responsible of new products' launch market research.</span>
+                    <h6>2012 - 2014 | Banco de Crédito del Perú</h6>
+                    <span>Sales of bank's products and services.
+                      <br> Conflicts' managment and resolutions. </span>
+                    <h6>2010 - 2012 | Manufacturas Eléctricas SA</h6>
+                    <span>Responsible of publicity design
+                      <br> Support in the organization of trade fairs</span>
+                  </div>
+                  <div class="col-lg-4 col-sm-4">
+                    <h4 class="text-uppercase mb-20">Education & Courses</h4>
+                    <h6>2017 - 2018 | Bootcamp Laboratoria</h6>
+                    <span>UX Designer speciality</span>
+                    <h6>2015 - 2017 | San Ignacio de Loyola Univerty</h6>
+                    <span>Bachellor in Marketing & Comercial Managment</span>
+                    <h6>2012 - 2015 | Cibertec</h6>
+                    <span>Technical in Marketing</span>
+                    <h6>2004 - 2007 | Cepeban</h6>
+                    <span>Technical in Computation</span>
+                  </div>
+                  <div class="col-lg-4 col-sm-4">
+                    <h4 class="text-uppercase mb-20">Skills</h4>
+                    <h6>Professional Skills</h6>
+                    <span>UX designer speciality</span>
+                    <h6>Personal Skills</h6>
+                    <span>Bachellor in Marketing & Comercial Managment</span>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- Portfolio -->
+          <div class="tab-pane fade" id="nav-portfolio" role="tabpanel" aria-labelledby="nav-contact-tab">
+            <section class="about-area pt-100">
+              <div class="container">
+                <h3>Portfolio</h3>
+                <p>Here you will find some projects i had made or participated</p>
+                <div class="section-top-border">
+                  <div class="card-deck">
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/vista1.jpg" alt="Avant Premier">
+                      <div class="card-body">
+                        <h5 class="card-title">Avant Premiere</h5>
+                        <p class="card-text">This project was made during a hackaton challenge. The team had 3 participants and we had 2 days
+                          to complete it. For this challenge we had to use firebase and an API that Laboratoria gave us.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">
+                          <a href="https://github.com/MelynaPernia/avant-premier" target="_blank">Check the project in Github</a>
+                        </small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/vista1.jpg" alt="Trip Lovers">
+                      <div class="card-body">
+                        <h5 class="card-title">Trip Lovers</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">
+                          <a href="#" target="_blank">Check the project in Github</a>
+                        </small>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img class="card-img-top" src="assets/images/vista1.jpg" alt="Traveleando">
+                      <div class="card-body">
+                        <h5 class="card-title">Data Dashboard</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This
+                          card has even longer content than the first to show that equal height action.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">
+                          <a href="#" target="_blank">Check the project in Github</a>
+                        </small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <!-- Conctact me -->
+          <div class="tab-pane fade" id="nav-contact-me" role="tabpanel" aria-labelledby="nav-contact-tab">
+            <section class="feature-area pt-100 pb-100 relative">
+              <div class="overlay overlay-bg">
+                <h3 class="text-white">Contac me</h3>
+              </div>
+            </section>
+          </div>
         </div>
       </div>
     </header>
-    <!-- Banner Area - Resume -->
-    <section class="banner-area relative">
-      <div class="container">
-        <div class="row fullscreen align-items-center justify-content-center">
-          <div class="banner-left col-lg-6">
-            <img class="d-flex mx-auto img-fluid" src="assets/images/header-img.png" alt="">
-          </div>
-          <div class="col-lg-6">
-            <div class="story-content">
-              <h6 class="text-uppercase">Hi! My name is </h6>
-              <h1>Lourdes Loayza</h1>
-              <h4>
-                <span class="sp-2"> and i like</span>
-              </h4>
-              <h3> Marketing research & UX design</h3>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- About me -->
-    <section class="video-area pt-40 pb-40" id="about-me">
-      <div class="overlay overlay-bg"></div>
-      <div class="container">
-
-        <div class="video-content">
-
-          <div class="video-desc">
-            <h3 class="h2 text-white text-uppercase">About me</h3>
-            <h4 class="text-white">Mrs. Gump: What's normal anyways?</h4>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Resume -->
-    <section class="section-gap">
-      <div class="container">
-        <div class="row pt-60">
-          <div class="col-lg-4 col-sm-4">
-            <h4 class="text-uppercase mb-20">Experience</h4>
-            <h6>2014 - 2017 | Artecola Perú</h6>
-            <span>Responsible to execute the activities of the marketing plan. <br> Responsible of new products' launch  market research.</span>
-            <h6>2012 - 2014 | Banco de Crédito del Perú</h6>
-            <span>Sales of bank's products and services.  <br> Conflicts' managment and resolutions. </span>
-            <h6>2010 - 2012 | Manufacturas Eléctricas SA</h6>
-            <span>Responsible of publicity design  <br> Support in the organization of trade fairs</span>
-          </div>
-          <div class="col-lg-4 col-sm-4">
-              <h4 class="text-uppercase mb-20">Education & Courses</h4>
-              <h6>2017 - 2018 | Bootcamp Laboratoria</h6>
-              <span>UX Designer speciality</span>
-              <h6>2015 - 2017 | San Ignacio de Loyola Univerty</h6>
-              <span>Bachellor in Marketing & Comercial Managment</span>
-              <h6>2012 - 2015 | Cibertec</h6>
-              <span>Technical in Marketing</span>
-              <h6>2004 - 2007 | Cepeban</h6>
-              <span>Technical in Computation</span>
-          </div>
-          <div class="col-lg-4 col-sm-4">
-            <h4 class="text-uppercase mb-20">Skills</h4>
-            <h6>Professional Skills</h6>
-            <span>UX designer speciality</span>
-            <h6>Personal Skills</h6>
-            <span>Bachellor in Marketing & Comercial Managment</span>
-        </div>
-        </div>
-      </div>
-    </section>
-    <!-- Portfolio -->
-    <section class="about-area pt-100">
-      <div class="container">
-        <h3>Portfolio</h3>
-        <p>Here you will find some projects i had made or participated</p>
-        <div class="section-top-border">
-          <div class="card-deck">
-            <div class="card">
-              <img class="card-img-top" src="assets/images/vista1.jpg" alt="Avant Premier">
-              <div class="card-body">
-                <h5 class="card-title">Avant Premiere</h5>
-                <p class="card-text">This project was made during a hackaton challenge. The team had 3 participants and we had 2 days to complete
-                  it. For this challenge we had to use firebase and an API that Laboratoria gave us.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">
-                  <a href="https://github.com/MelynaPernia/avant-premier" target="_blank">Check the project in Github</a>
-                </small>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="assets/images/vista1.jpg" alt="Trip Lovers">
-              <div class="card-body">
-                <h5 class="card-title">Trip Lovers</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">
-                  <a href="#" target="_blank">Check the project in Github</a>
-                </small>
-              </div>
-            </div>
-            <div class="card">
-              <img class="card-img-top" src="assets/images/vista1.jpg" alt="Traveleando">
-              <div class="card-body">
-                <h5 class="card-title">Data Dashboard</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has
-                  even longer content than the first to show that equal height action.</p>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted">
-                  <a href="#" target="_blank">Check the project in Github</a>
-                </small>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Conctact me -->
-    <section class="feature-area pt-100 pb-100 relative">
-      <div class="overlay overlay-bg">
-        <h3 class="text-white">Contac me</h3>
-      </div>
-
-    </section>
   </div>
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
-  <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
-
