@@ -15,8 +15,8 @@
 
 <body>
   <div class="oz-body-wrap">
-    <!-- Header Area - Nav's links -->
-    <header class="default-header">
+    <!-- Tab's links -->
+    <section class="default-header">
       <div class="container-fluid">
         <nav>
           <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -30,10 +30,11 @@
               aria-selected="false">Contact me</a>
           </div>
         </nav>
+        <!-- Tab's contents -->
         <div class="tab-content" id="nav-tabContent">
+          <!-- Section about me -->
           <div class="tab-pane fade show active" id="nav-about-me" role="tabpanel" aria-labelledby="nav-home-tab">
-
-            <!-- Banner Area - Resume -->
+            <!-- Profile -->
             <section class="banner-area relative">
               <div class="container">
                 <div class="row fullscreen align-items-center justify-content-center">
@@ -55,24 +56,36 @@
             </section>
             <!-- About me -->
             <section class="video-area pt-40 pb-40" id="about-me">
-              <div class="overlay overlay-bg"></div>
-              <div class="container">
+              <div class="overlay overlay-bg">
+                  <div class="container">
+                      
+                      <h5 class="text-white">Thinks that i like</h5>
+                      <h6>Photografy</h6>
 
-                <div class="video-content">
+                      
 
-                  <div class="video-desc">
-                    <h3 class="h2 text-white text-uppercase">About me</h3>
-                    <h4 class="text-white">Mrs. Gump: What's normal anyways?</h4>
-                  </div>
-                </div>
+                      <div class="video-content">
+                        
+      
+                        <div class="video-desc">
+
+                          
+                          <h3 class="h2 text-white text-uppercase">About me</h3>
+                          <h4 class="text-white">Mrs. Gump: What's normal anyways?</h4>
+                        </div>
+                      </div>
+                    </div>  
               </div>
+              
             </section>
           </div>
-          <!-- Resume -->
-          <div class="tab-pane fade" id="nav-resume" role="tabpanel" aria-labelledby="nav-profile-tab">
-            <section class="section-gap">
+          <!-- Section resume -->
+          <div class="tab-pane fade" id="nav-resume" role="tabpanel" aria-labelledby="nav-resume-tab">
+            <section class="about-area pt-100">
               <div class="container">
-                <div class="row pt-60">
+                <h3>Resume</h3>
+                <p>Somethings you should know about me</p>
+                <div class="section-top-border">
                   <div class="col-lg-4 col-sm-4">
                     <h4 class="text-uppercase mb-20">Experience</h4>
                     <h6>2014 - 2017 | Artecola Perú</h6>
@@ -107,7 +120,7 @@
               </div>
             </section>
           </div>
-          <!-- Portfolio -->
+          <!-- Section portfolio -->
           <div class="tab-pane fade" id="nav-portfolio" role="tabpanel" aria-labelledby="nav-contact-tab">
             <section class="about-area pt-100">
               <div class="container">
@@ -158,7 +171,7 @@
               </div>
             </section>
           </div>
-          <!-- Conctact me -->
+          <!-- Section conctact me -->
           <div class="tab-pane fade" id="nav-contact-me" role="tabpanel" aria-labelledby="nav-contact-tab">
             <section class="feature-area pt-100 pb-100 relative">
               <div class="overlay overlay-bg">
@@ -168,7 +181,7 @@
           </div>
         </div>
       </div>
-    </header>
+    </section>
   </div>
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
