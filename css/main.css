@@ -193,15 +193,6 @@ body{
 .generic-banner .banner-content p{
   font-size:16px
 }
-.green-area{
-  padding:5% 0;
-  position:relative;
-  background:url(../assets/images/video-bg.jpg) no-repeat center center/cover
-}
-.green-area .overlay-bg{
-  background:rgba(108,187,35,0.85)
-}
-
 .generic-header .menu-bar span{
   color:#777
 }
@@ -233,6 +224,14 @@ body{
 .elements-banner{
   color:#000 !important
 }
+.green-area{
+  padding:3% 0;
+  position:relative;
+  background:url(../assets/images/video-bg.jpg) no-repeat center center/cover
+}
+.green-area .overlay-bg{
+  background:rgba(108,187,35,0.85)
+}
 
 @media (max-width: 991px){
   .story-content h1 br{
@@ -251,6 +250,14 @@ body{
     padding:5% 0;
     border-top:1px dotted #eee
   }
+  .green-area{
+    padding:3% 0;
+    position:relative;
+    background:url(../assets/images/video-bg.jpg) no-repeat center center/cover
+  }
+  .green-area .overlay-bg{
+    background:rgba(108,187,35,0.85)
+  }
 }
 
 @media (max-width: 768px){
@@ -267,6 +274,14 @@ body{
   .section-top-border{
     padding:5% 0;
     border-top:1px dotted #eee
+  }
+  .green-area{
+    padding:3% 0;
+    position:relative;
+    background:url(../assets/images/video-bg.jpg) no-repeat center center/cover
+  }
+  .green-area .overlay-bg{
+    background:rgba(108,187,35,0.85)
   }
 }
 
@@ -319,6 +334,14 @@ body{
     padding:40% 0;
     border-top:1px dotted #eee
   }
+  .green-area{
+    padding:3% 0;
+    position:relative;
+    background:url(../assets/images/video-bg.jpg) no-repeat center center/cover
+  }
+  .green-area .overlay-bg{
+    background:rgba(108,187,35,0.85)
+  }
 }
 
 @media (max-width: 575px){
@@ -328,6 +351,14 @@ body{
   .section-top-border{
     padding:60% 0;
     border-top:1px dotted #eee
+  }
+  .green-area{
+    padding:3% 0;
+    position:relative;
+    background:url(../assets/images/video-bg.jpg) no-repeat center center/cover
+  }
+  .green-area .overlay-bg{
+    background:rgba(108,187,35,0.85)
   }
 }
 
@@ -339,6 +370,14 @@ body{
     padding:70% 0;
     border-top:1px dotted #eee
   }
+  .green-area{
+    padding:10% 0;
+    position:relative;
+    background:url(../assets/images/video-bg.jpg) no-repeat center center/cover
+  }
+  .green-area .overlay-bg{
+    background:rgba(108,187,35,0.85)
+  }
 }
 
 @media (max-width: 320px){
@@ -346,6 +385,14 @@ body{
   .section-top-border{
     padding:80% 0;
     border-top:1px dotted #eee
+  }
+  .green-area{
+    padding:10% 0;
+    position:relative;
+    background:url(../assets/images/video-bg.jpg) no-repeat center center/cover
+  }
+  .green-area .overlay-bg{
+    background:rgba(108,187,35,0.85)
   }
 }
 
