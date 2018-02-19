@@ -132,6 +132,7 @@ nav a {
   color:#000;
   margin:0 5px; 
 }
+
 nav a:hover {
   color:#6cbb23
 }
@@ -170,47 +171,61 @@ body{
 .story-content h6{
   font-weight:400
 }
+
 .story-content p{
   margin-bottom:5%;
   font-size:15px
 }
+
 .story-content .sp-1{
   font-weight:600
 }
+
 .story-content .sp-2{
   color:#6cbb23;font-weight:600
 }
+
 .generic-banner{
   background:#6cbb23
 }
+
 .generic-banner .height{
   height:600px
 }
+
 .generic-banner .banner-content h2{
   line-height:1.2em;
   margin-bottom:20px
 }
+
 .generic-banner .banner-content p{
   font-size:16px
 }
+
 .generic-header .menu-bar span{
   color:#777
 }
+
 .generic-header nav a{
   color:#000
 }
+
 .generic-banner{
   background:#fff;color:#222
 }
+
 .about-generic-area{
   background:#fff
 }
+
 .about-generic-area .border-top-generic{
   padding:100px 15px
 }
+
 .about-generic-area p{
   margin-bottom:20px
 }
+
 .white-bg{
   background:#fff
 }
@@ -218,20 +233,55 @@ body{
 .switch-wrap{
   margin-bottom:10px
 }
+
 .switch-wrap p{
   margin:0
 }
+
 .elements-banner{
   color:#000 !important
 }
+
 .green-area{
   padding:3% 0;
   position:relative;
   background:url(../assets/images/video-bg.jpg) no-repeat center center/cover
 }
+
 .green-area .overlay-bg{
   background:rgba(108,187,35,0.85)
 }
+
+.genric-btn{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 1%;
+}
+
+.genric-btn.primary{
+  color:#fff;
+  background:#6cbb23;
+  border:1px solid transparent
+}
+
+.genric-btn.primary:hover{
+  color:#6cbb23;
+  border:1px solid #6cbb23;
+  background:#fff
+}
+
+.genric-btn.primary-border{
+  color:#6cbb23;
+  border:1px solid #6cbb23;
+  background:#fff
+}
+
+.genric-btn.primary-border:hover{
+  color:#fff;
+  background:#6cbb23;
+  border:1px solid transparent
+}
+.genric-btn{margin-right:10px;margin-top:10px}
 
 @media (max-width: 991px){
   .story-content h1 br{
@@ -335,7 +385,7 @@ body{
     border-top:1px dotted #eee
   }
   .green-area{
-    padding:3% 0;
+    padding:5% 0;
     position:relative;
     background:url(../assets/images/video-bg.jpg) no-repeat center center/cover
   }
@@ -353,7 +403,7 @@ body{
     border-top:1px dotted #eee
   }
   .green-area{
-    padding:3% 0;
+    padding:5% 0;
     position:relative;
     background:url(../assets/images/video-bg.jpg) no-repeat center center/cover
   }
@@ -371,7 +421,7 @@ body{
     border-top:1px dotted #eee
   }
   .green-area{
-    padding:10% 0;
+    padding:5% 0;
     position:relative;
     background:url(../assets/images/video-bg.jpg) no-repeat center center/cover
   }
@@ -387,14 +437,34 @@ body{
     border-top:1px dotted #eee
   }
   .green-area{
-    padding:10% 0;
+    padding:5% 0;
     position:relative;
     background:url(../assets/images/video-bg.jpg) no-repeat center center/cover
   }
   .green-area .overlay-bg{
     background:rgba(108,187,35,0.85)
   }
+  nav {
+    margin-right:10px;
+    -webkit-transition:all 0.3s ease 0s;
+    -moz-transition:all 0.3s ease 0s;
+    -o-transition:all 0.3s ease 0s;
+    transition:all 0.3s ease 0s;
+    transform-origin:100% 50%
+  }
+  nav { 
+    margin-right:0;
+    position:absolute;
+    right:1%;top:1%;
+    text-align:right;
+    padding:5px 0;
+    z-index:5;
+  }
+  nav a {
+    margin:5px 20px
+  }
 }
+
 
   
 
