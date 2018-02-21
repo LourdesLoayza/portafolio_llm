@@ -156,10 +156,25 @@ h6 {
     font-size: 1rem;
     margin: 1rem 0;
   }
+  .portfolio-item .caption .caption-content {
+    color: #fff;
+    margin: auto 0;
+    padding: 0.5rem;
+    background-color: rgba(20, 20, 20, 0.2);
+  }
+  
+  .portfolio-item .caption .caption-content h2 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+  
+  .portfolio-item .caption .caption-content p {
+    font-weight: 400;
+    font-size: 1rem;
+  }
 }
 
 @media (max-width: 375px) {
-
   .masthead h1 {
     font-size: 2.8rem;
   }
@@ -170,6 +185,22 @@ h6 {
   .masthead p {
     font-size: 1rem;
     margin: 1rem 0;
+  }
+  .portfolio-item .caption .caption-content {
+    color: #fff;
+    margin: auto 0;
+    padding: 0.5rem;
+    background-color: rgba(20, 20, 20, 0.2);
+  }
+  
+  .portfolio-item .caption .caption-content h2 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+  
+  .portfolio-item .caption .caption-content p {
+    font-weight: 400;
+    font-size: 1rem;
   }
 }
 
@@ -189,4 +220,22 @@ h6 {
   .nav{
     flex-wrap: inherit
   }  
+   
+  .portfolio-item .caption .caption-content {
+    color: #fff;
+    margin: auto 0;
+    padding: 0.5rem;
+    background-color: rgba(20, 20, 20, 0.2);
+  }
+  
+  .portfolio-item .caption .caption-content h2 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+  
+  .portfolio-item .caption .caption-content p {
+    font-weight: 400;
+    font-size: 1rem;
+  }
+  
 }
