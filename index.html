@@ -14,44 +14,103 @@
     type="text/css">
   <!-- Custom CSS -->
   <link href="css/main.css" rel="stylesheet">
-
+  <link href="css/half-slider.css" rel="stylesheet">
 </head>
 
 <body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><h6> Marketing research & UX Designer</h6></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://drive.google.com/file/d/1kQaac4S5hVH9s-MD2bisTS96i5FPtrhS/view?usp=sharing" target="new">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:loayza.lourdes@gmail.com?subject=Portafolio">Email</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/lourdes-loayza-mesias/" target="new">Linkedin</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/LourdesLoayza" target="new">Github</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <!-- Header -->
   <header>
-    <nav class="bg-dark ">
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active text-white" href="https://drive.google.com/file/d/1kQaac4S5hVH9s-MD2bisTS96i5FPtrhS/view?usp=sharing"
-            target="new">Resume</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active text-white" href="mailto:loayza.lourdes@gmail.com?subject=Portafolio">Email</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="https://www.linkedin.com/in/lourdes-loayza-mesias/" target="new">Linkedin</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="https://github.com/LourdesLoayza" target="new">Github</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <!-- About me -->
-  <section class="masthead d-flex">
-    <div class="container text-center my-auto">
-      <h1 class="mb-1">Lourdes Loayza</h1>
-      <h3 class="mb-5">
-        <em>Marketing research & UX Designer</em>
-      </h3>
-      <h4>About me</h4>
-      <p class="text-justify">I'm a person very curious and i love to analyze every new thing that i want to try on, i don't like to much rutine
-        but i can deal with it. In my free time i love to travel and play adventure sports like canopy.</p>
-      <p class="text-justify">About my work expectations i'm interested in topics such as user experience, data analysis, digital marketing and use
-        of new technologies to improve processes oriented to customer.</p>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active">
+          <img class="d-block img-fluid" src="assets/images/slide1.jpg" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>I love photography but I'm an amateur</h3>
+            <p>Cúpula mudéjar convento y basílica San Francisco
+              <br>Lima, Lima, Perú</p>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="assets/images/slide2.jpg" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>I like to go out and visit new restaurants or bars</h3>
+            <p>Ayahuasca Restobar Lounge
+              <br> Barranco, Lima, Perú</p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="assets/images/slide3.jpg" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>I love to travel, play board games, adventure sports and go to the cinema.</h3>
+            <p>Museo Hacienda Santa María <br> Tarma, Junín, Perú</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-  </section>
+  </header>
+
+  <!-- About me -->
+  <section>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-lg-2">
+            <div class="p-5">
+              <img class="img-fluid rounded-circle" src="assets/images/profile.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="p-5 ">
+              <h3 class="display-4">Hi, I'm Lourdes Loayza...</h3>
+              <p>I'm very curious and i like to analyze and try new things. I'm interested in topics such as user experience, data analysis,
+                  digital marketing and use of new technologies to improve processes oriented to customer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   <!-- Portfolio -->
   <section class="content-section" id="portfolio">
     <div class="container">
@@ -64,7 +123,8 @@
             <span class="caption">
               <span class="caption-content">
                 <h2>Resume</h2>
-                <p class="mb-0 text-justify">All these projects were made in teamwork. Some of them were challenges that had around 3 days to build them. These projects are important because they show what can I do as part as a team.</p>
+                <p class="mb-0 text-justify">All these projects were made in teamwork. Some of them were challenges that had around 3 days to build them.
+                  These projects are important because they show what can I do as part as a team.</p>
               </span>
             </span>
             <img class="img-fluid" src="assets/images/portfolio-1.jpg" alt="">
@@ -87,7 +147,8 @@
               <span class="caption-content">
                 <h2>Avant Premier</h2>
                 <p class="mb-0 text-justify">How many months does a cinephile has to wait for a film that wants to see? I think you should check Avant
-                  Premier</p>
+                  Premier
+                </p>
               </span>
             </span>
             <img class="img-fluid" src="assets/images/portfolio-3.jpg" alt="">
@@ -98,7 +159,8 @@
             <span class="caption">
               <span class="caption-content">
                 <h2>Trip Lovers</h2>
-                <p class="mb-0 text-justify">Do you have any idea how many things you could do, eat and visit in Peru? There's more that Machu Picchu and people in Trip Lovers knows it. Join us!</p>
+                <p class="mb-0 text-justify">Do you have any idea how many things you could do, eat and visit in Peru? There's more that Machu Picchu
+                  and people in Trip Lovers knows it. Join us!</p>
               </span>
             </span>
             <img class="img-fluid" src="assets/images/portfolio-4.jpg" alt="">
@@ -108,6 +170,17 @@
     </div>
   </section>
 
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">3LM's portfolio 2018</p>
+    </div>
+  </footer>
+
 </body>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendors/jquery/jquery.min.js"></script>
+<script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </html>
