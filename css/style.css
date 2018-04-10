@@ -146,13 +146,13 @@ a:hover, a:active {
 # Social Profiles
 --------------------------------*/
 .social-profiles ul {
-    padding: 10px 0 34px 0;
-    margin: 0;
+    padding: 5%;
+    margin: 5%;
 }
 
 .social-profiles ul li {
-    display: block;
-    padding: 0 18px;
+    display: inline-block;
+    padding: 10% 5%;
     font-size: 1.5rem;
 }
 
